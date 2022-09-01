@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/c1.js'></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class = "row">
+        <div id="app">
+            <section id="container">
+                <form id="product-form">
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <input placeholder="Code" id="code" type="text" class="validate">
+                        </div>
+                        <div class="input-field col s12">
+                          <input  placeholder="Name" id="name" type="text" class="validate">
+                        </div>
+                        <div class="input-field col s12">
+                            <input  placeholder="Name" id="cant"type="text" class="validate">
+                        </div>
+                        <div class="input-field col s12">
+                            <input  placeholder="Name" id="price" type="text" class="validate">
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light green lighten-1 " type="submit" id="add">Agregar</button>
+                    <button class="btn waves-effect waves-light amber darken-3 " id="preOrder">Buscar</button>
+                    <button class="btn waves-effect waves-light amber darken-4"  id="inOrder">InOrder</button>
+                    <button class="btn waves-effect waves-light orange accent-2" id="postOrder">Reset</button>
+                    <button class="btn waves-effect waves-light red darken-1" type="reset" id="reset">Reset</button>
+                </form>
+            </section>
+        </div>
+    </div>     
+    <div id="detalles">
+
+    </div>
+    <script src='js/c1.js'></script>
+</body>
+</html>
